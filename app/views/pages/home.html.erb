@@ -2,3 +2,19 @@
     <h1>Welcome to My SaaS</h1>
     <h3>A membership site where people can meet other people</h3>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Basic Plan</h2>
+            <h4>This is filler text about our basic plan!</h4></br>
+            <%= link_to "Sign up free", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Premium Plan</h2>
+            <h4>This is filler text about our premium plan! Get access to all the information. </h4>
+            <%= link_to "Sign up", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+        </div>
+    </div>
+</div>
